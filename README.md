@@ -1,5 +1,8 @@
 # lightSplit
 
+### Demo:
+http://feelenergycb.github.io/lightFile/
+
 ### Usage:
 ```
 lightFile({
