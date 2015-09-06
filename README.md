@@ -4,7 +4,9 @@
 ```
 lightFile({
   selector: '.file',
-  customClass: 'lightFile'
+  customClass: 'lightFile',
+  buttonText: 'Выбрать файл',
+  deleteText: 'Удалить',
 });
 ```
 
