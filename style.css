@@ -32,6 +32,7 @@
 }
 .lightFile__delete {
   position: absolute;
+  cursor: pointer;
   display: none;
   bottom: 0;
   right: 0;
