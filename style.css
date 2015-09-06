@@ -1,0 +1,49 @@
+.lightFile {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+.lightFile__in {
+  display: inline-block;
+}
+.lightFile__hidden {
+  display: none;
+}
+.lightFile__button {
+  font-size: 14px;
+  line-height: 1;
+  background: #ccc;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+.lightFile__button:hover {
+  opacity: .8;
+}
+.lightFile_chosen .lightFile__button {
+  margin-right: 10px;
+}
+.lightFile__text {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1;
+  display: inline-block;
+}
+.lightFile__delete {
+  position: absolute;
+  display: none;
+  bottom: 0;
+  right: 0;
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 1;
+  color: #000;
+  text-decoration: none;
+}
+.lightFile__delete:hover {
+  text-decoration: underline;
+}
+.lightFile_chosen .lightFile__delete {
+  display: block;
+}

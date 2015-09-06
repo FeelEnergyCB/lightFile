@@ -1,0 +1,49 @@
+.lightFile {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+  &__in {
+    display: inline-block;
+  }
+  &__hidden {
+    display: none;
+  }
+  &__button {
+    font-size: 14px;
+    line-height: 1;
+    background: #ccc;
+    cursor: pointer;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: baseline;
+    &:hover {
+      opacity: .8;
+    }
+    .lightFile_chosen & {
+      margin-right: 10px;
+    }
+  }
+  &__text {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1;
+    display: inline-block;
+  }
+  &__delete {
+    position: absolute;
+    display: none;
+    bottom: 0;
+    right: 0;
+    margin-top: 10px;
+    font-size: 11px;
+    line-height: 1;
+    color: #000;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+    .lightFile_chosen & {
+      display: block;
+    }
+  }
+} // end lightFile

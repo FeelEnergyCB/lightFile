@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body, html{
+      height: 100%;
+      margin: 0;
+      font-size: 0;
+      line-height: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: table;
+      width: 100%;
+    }
+    body * {
+      box-sizing: border-box;
+    }
+    .wrapper {
+      padding: 0 10%;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <input type="file" class="file">
+  </div>
+  <script src="lightFile.min.js"></script>
+  <script>
+    lightFile({
+      selector: '.file',
+      buttonText: 'Выбрать файл',
+      deleteText: 'Удалить',
+    });
+  </script>
+</body>
+</html>
