@@ -1,4 +1,4 @@
-# lightSplit
+# lightFile
 
 ### Demo:
 http://mikitalisavets.me/lightFile
