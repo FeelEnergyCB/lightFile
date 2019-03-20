@@ -1,7 +1,7 @@
 # lightFile
 
 ### Demo:
-http://mikitalisavets.me/lightFile
+https://mikitalisavets.me/lightFile
 
 ### Usage:
 ```
