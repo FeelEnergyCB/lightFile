@@ -1,7 +1,9 @@
 # lightFile
 
+### Customization of default input [type="file"]
+
 ### Demo:
-https://mikitalisavets.me/lightFile
+https://mikitalisavets.me/light-file
 
 ### Usage:
 ```
