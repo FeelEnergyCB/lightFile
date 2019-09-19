@@ -1,6 +1,6 @@
 # lightFile
 
-### Customization of default input [type="file"]
+#### Customization of default input [type="file"]
 
 ### Demo:
 https://mikitalisavets.me/light-file
